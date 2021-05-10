@@ -61,7 +61,7 @@ public class Strawberry extends Fruit{
 	
 	//overloading with 2 arguments
 	public double totalPrice(double P, double d) {
-		return (P * this.grams) - ((P * this.grams) * (1-d));
+		return (P * this.grams) - ((P * this.grams) * d);
 	}
 		
 	//overriding method
