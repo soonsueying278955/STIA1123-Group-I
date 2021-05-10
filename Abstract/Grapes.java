@@ -54,7 +54,7 @@ public class Grapes extends Fruit{
 		
 	//overloading with 2 arguments
 	public double totalPrice(double P, double d) {
-		return (P * this.kilogram) - ((P * this.kilogram) - (1-d));
+		return (P * this.kilogram) - ((P * this.kilogram) * (1-d));
 	} 
 		
 	//overriding method
