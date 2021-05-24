@@ -23,7 +23,7 @@ public class Apple extends Fruit{
 		
 		else {
 			double pp = 0.59; //purchase more than 50, the price is RM0.59
-			double dd = 0.; //discount 10% for purchase more than 50
+			double dd = 0.1; //discount 10% for purchase more than 50
 			TotalPrice(pp, dd); //overloading with 2 arguments
 			System.out.printf("If quantity of apple is more than 10, total price is " + "RM " + "%.2f", TotalPrice(pp, dd));
 		}
